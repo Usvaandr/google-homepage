@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
+    color: rgba(0,0,0,0.87);
 }
 
 body {
@@ -13,20 +14,26 @@ header {
     display: flex;
     justify-content:right;
     align-items: center;
-    height: 60px;
-    padding: 10px;
+    height: 48px;
+    padding: 6px;
+    font-size: small;
     
-    background-color: darkgray;
+    background-color: white;
 }
 
-.color {
-    background-color: darkgray;
+navbar-icons {
+    padding: 6px 8px 4px 4px;
+    /* background-color: violet; */
 }
 
-li {
-    display: inline;
+navprofile {
+    padding: 4px;
 }
 
-img {
+.nav-profile-pic {
     border-radius: 50%;
   }
+  
+  li {
+    display: inline;
+}
