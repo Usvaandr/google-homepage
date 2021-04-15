@@ -22,18 +22,66 @@ header {
 }
 
 navbar-icons {
-    padding: 6px 8px 4px 4px;
-    /* background-color: violet; */
+    display: flex;
+    padding: 4px;
 }
 
-navprofile {
+nav-prof {
+    display: inline-block;
     padding: 4px;
+    /* background-color: tomato; */
 }
 
 .nav-profile-pic {
     border-radius: 50%;
-  }
-  
-  li {
+}
+
+nav-apps {
+    display: inline-block;
+    padding: 4px;
+    /* background-color: tomato; */
+}
+
+nav-icon {
+    display: inline-block;
+    text-align: center;
+    height: 32px;
+    width: 32px;
+    /* background-color: yellowgreen; */
+    padding: 4px;
+    cursor: pointer;
+}
+
+
+nav-icon:hover {
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+li {
     display: inline;
+    padding-left: 11px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li:hover {
+    text-decoration: underline;
+    ;
+}
+
+.nav-list {
+    padding-right: 12px;
+}
+
+
+.google-picture {
+    height: 290px;
+    background-color: tomato;
 }
