@@ -7,9 +7,9 @@
     color: rgba(0,0,0,0.87);
 }
 
-body {
-    /* background-color: cornsilk; */
-}
+/* body {
+    background-color: cornsilk;
+} */
 header {
     display: flex;
     justify-content:right;
@@ -17,7 +17,6 @@ header {
     height: 48px;
     padding: 6px;
     font-size: small;
-    /* background-color: white; */
 }
 
 /* The Start of navigation bar and profile picture */
@@ -89,7 +88,6 @@ li:hover {
 .google-logo {
     width: 100%;
     height: 290px;
-    /* background-color: white; */
     display: flex;
     justify-content:center;
     align-items: flex-end;      
@@ -98,13 +96,11 @@ li:hover {
 /* Search bar and buttons section */
 
 .search-first {
-    /* background-color: orange; */
     padding: 20px;
     height: 160px;
 }
 
 .search-second {
-    /* background-color:white; */
     max-width: 584px;
     min-width: none;
     width: auto;
@@ -160,11 +156,9 @@ li:hover {
 .search-buttons-first {
     height: 70px;
     padding-top: 18px;
-    /* background-color: rgb(124, 165, 43); */
 }
 
 .search-buttons-second {
-    /* background-color: yellowgreen; */
     height: 58px;
     display: flex;
     justify-content: center;
@@ -193,3 +187,46 @@ li:hover {
 }
 
 /* Footer */
+
+footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.footer-country {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+.footer-menu {
+    font-size: 14px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 1200px) {
+    .footer-menu {
+        justify-content: space-between;
+    }
+}
+
+.footer-menu ul {
+    display: flex;
+}
+
+.footer-menu ul li {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    color: #70757a;
+}
+
+.footer-menu ul li a {
+    color: #70757a;
+}
